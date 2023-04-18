@@ -4233,13 +4233,13 @@
     )
   )
 
-  (symbol (lib_id "Adafruit PCA9685 rev C-eagle-import:VCC") (at 346.71 167.64 0) (unit 1)
+  (symbol (lib_id "Adafruit PCA9685 rev C-eagle-import:5.0V") (at 346.71 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 13419521-fdee-4044-a758-406d5b382221)
-    (property "Reference" "#P+010" (at 346.71 167.64 0)
+    (uuid 12d5817a-7dce-4e80-9284-5163266c2b1c)
+    (property "Reference" "#U$04" (at 346.71 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 345.186 166.624 0)
+    (property "Value" "5.0V" (at 345.186 166.624 0)
       (effects (font (size 1.27 1.0795)) (justify left bottom))
     )
     (property "Footprint" "" (at 346.71 167.64 0)
@@ -4248,11 +4248,11 @@
     (property "Datasheet" "" (at 346.71 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 500b1860-951a-4625-9077-355d64eee694))
+    (pin "1" (uuid 957681bc-f084-4e8a-a158-7793d67c5156))
     (instances
       (project "PCA9685+L298"
         (path "/89b827bc-676c-4335-87b0-d3946333fe72"
-          (reference "#P+010") (unit 1)
+          (reference "#U$04") (unit 1)
         )
       )
     )
@@ -4527,6 +4527,31 @@
       (project "PCA9685+L298"
         (path "/89b827bc-676c-4335-87b0-d3946333fe72"
           (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Adafruit PCA9685 rev C-eagle-import:5.0V") (at 339.09 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 24e952ce-f839-4cd9-bab6-7d1cffe6fae0)
+    (property "Reference" "#U$05" (at 339.09 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "5.0V" (at 337.566 166.624 0)
+      (effects (font (size 1.27 1.0795)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 339.09 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 339.09 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f33386d1-0101-4048-8594-fb7f6300ee73))
+    (instances
+      (project "PCA9685+L298"
+        (path "/89b827bc-676c-4335-87b0-d3946333fe72"
+          (reference "#U$05") (unit 1)
         )
       )
     )
@@ -7057,7 +7082,7 @@
     (property "Reference" "R4" (at 377.19 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "470" (at 377.19 157.48 0)
+    (property "Value" "1k" (at 377.19 157.48 0)
       (effects (font (size 1.016 1.016) bold))
     )
     (property "Footprint" "Adafruit PCA9685 rev C:_0805MP" (at 377.19 157.48 0)
@@ -7719,31 +7744,6 @@
       (project "PCA9685+L298"
         (path "/89b827bc-676c-4335-87b0-d3946333fe72"
           (reference "R12") (unit 4)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Adafruit PCA9685 rev C-eagle-import:VCC") (at 339.09 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cdee698a-34cc-4875-8aa6-876f20c2e524)
-    (property "Reference" "#P+011" (at 339.09 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 337.566 166.624 0)
-      (effects (font (size 1.27 1.0795)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 339.09 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 339.09 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 032e86f5-b924-43e4-af56-7a961e7b195a))
-    (instances
-      (project "PCA9685+L298"
-        (path "/89b827bc-676c-4335-87b0-d3946333fe72"
-          (reference "#P+011") (unit 1)
         )
       )
     )
