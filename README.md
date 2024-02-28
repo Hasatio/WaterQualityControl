@@ -16,3 +16,7 @@ The circuit taken as an example while designing the board [Adafruit PCA9685](htt
 ### Changed:
 
 - Logo
+
+### Updates:
+
+- 2x Step motor driver
