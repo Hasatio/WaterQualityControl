@@ -7,6 +7,7 @@ The circuit taken as an example while designing the board [Adafruit PCA9685](htt
 
 ### Added:
 
+- 1x TCA9406 (Voltage Level Translator)
 - 2x ADS1115 (Analog to Digital Converter)
 - 1x MCP23008 (I/O Expander)
 - 3x DRV8870 (Motor Driver)
